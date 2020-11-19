@@ -1,6 +1,5 @@
 import React from 'react'
 import { View, Text, Button, StyleSheet } from 'react-native'
-import AppText from '../../components/AppText/AppText'
 import Layout from '../../components/Layout'
 import Paragraph from '../../components/Paragraph'
 import TitleText from '../../components/TitleText/TitleText'
@@ -44,14 +43,15 @@ export default function AboutScreen({ navigation }: AboutScreenProps) {
 const styles = StyleSheet.create({
   titleContainer: {
     alignItems: 'center',
-    paddingVertical: 8,
+    paddingVertical: 10,
   },
   paragraphContainer: {
     flexGrow: 0.2,
+    alignContent: 'center',
     flexDirection: 'column',
     justifyContent: 'space-between',
-    paddingVertical: 6,
-    paddingHorizontal: 16,
+    paddingVertical: 4,
+    paddingHorizontal: 20,
   },
   buttonContainer: {
     marginTop: 'auto',
