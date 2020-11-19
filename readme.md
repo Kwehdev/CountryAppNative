@@ -8,4 +8,4 @@ I have began this project to gain some experience using React-Native and Docker.
 
 Note that this is currently a work in progress, though a rough image is presented below.
 
-![Demo](Expo-Demo.jpg)
+![Demo](Expo-Demo.jpg | width=368)
