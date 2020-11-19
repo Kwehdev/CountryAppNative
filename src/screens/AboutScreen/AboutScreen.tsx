@@ -28,6 +28,7 @@ export default function AboutScreen({ navigation }: AboutScreenProps) {
             React-Native. I hope to gain a deeper understanding of how mobile
             apps function, and further my own skills with the technology.
           </Paragraph>
+          <Paragraph>Currently a work in progress</Paragraph>
         </View>
         <View style={styles.buttonContainer}>
           <Button
